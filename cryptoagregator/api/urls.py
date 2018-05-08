@@ -9,7 +9,7 @@ router = routers.DefaultRouter()
 router.register(r'users', UserViewSet)
 
 urlpatterns = [
-    url(r'^', include(router.urls)),
+    # url(r'^', include(router.urls)),
     url(r'v1/storages/', StoragesView.as_view()),
     url(r'v1/coin/', CoinView.as_view()),
 

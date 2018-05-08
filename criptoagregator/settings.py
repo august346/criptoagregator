@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'corsheaders',
 
     'cryptoagregator.api',
+    'cryptoagregator.vue',
     'accounts',
 ]
 
